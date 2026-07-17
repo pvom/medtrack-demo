@@ -1,5 +1,7 @@
 # medtrack-demo — a read-only demo of a production healthcare SaaS
 
+**▶ Live demo: https://pvom.github.io/medtrack-demo/**
+
 > ⚠️ Sanitized portfolio demo. **MedTrack** is a real healthcare SaaS I build and run in
 > production (physicians tracking shifts + earnings). This demo is **read-only** and runs
 > on **100% synthetic data** — a fictional physician, fictional hospitals and shifts. No
