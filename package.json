@@ -1,0 +1,10 @@
+{
+  "name": "medtrack-demo",
+  "version": "1.0.0",
+  "description": "Read-only demo of MedTrack (a production healthcare SaaS) on 100% synthetic data.",
+  "license": "MIT",
+  "scripts": {
+    "seed": "node data/gen-seed.js",
+    "start": "node serve.js"
+  }
+}

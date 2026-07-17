@@ -1,0 +1,759 @@
+{
+  "_disclaimer": "SYNTHETIC DEMO DATA — fictional physician, fictional shifts. Not real patient or user data.",
+  "generatedFor": "medtrack-demo",
+  "doctor": {
+    "name": "Dr. DEMO Alex Rivera",
+    "specialtyMain": "Emergency",
+    "license": "DEMO-000000"
+  },
+  "shifts": [
+    {
+      "id": "DEMO-SHIFT-1000",
+      "date": "2026-01-06",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Emergency",
+      "hours": 24,
+      "rate": 45,
+      "gross": 1080,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1001",
+      "date": "2026-01-09",
+      "hospital": "DEMO Santa Marta",
+      "specialty": "Internal Medicine",
+      "hours": 6,
+      "rate": 45,
+      "gross": 270,
+      "status": "pending"
+    },
+    {
+      "id": "DEMO-SHIFT-1002",
+      "date": "2026-01-12",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Internal Medicine",
+      "hours": 12,
+      "rate": 40,
+      "gross": 480,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1003",
+      "date": "2026-01-15",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Pediatrics",
+      "hours": 12,
+      "rate": 35,
+      "gross": 420,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1004",
+      "date": "2026-01-18",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Pediatrics",
+      "hours": 8,
+      "rate": 35,
+      "gross": 280,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1005",
+      "date": "2026-01-21",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Emergency",
+      "hours": 24,
+      "rate": 28,
+      "gross": 672,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1006",
+      "date": "2026-01-24",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Pediatrics",
+      "hours": 24,
+      "rate": 28,
+      "gross": 672,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1007",
+      "date": "2026-01-26",
+      "hospital": "DEMO Hospital Central",
+      "specialty": "Pediatrics",
+      "hours": 24,
+      "rate": 35,
+      "gross": 840,
+      "status": "completed"
+    },
+    {
+      "id": "DEMO-SHIFT-1008",
+      "date": "2026-01-29",
+      "hospital": "DEMO Santa Marta",
+      "specialty": "Internal Medicine",
+      "hours": 24,
+      "rate": 35,
+      "gross": 840,
+      "status": "completed"
+    },
+    {
+      "id": "DEMO-SHIFT-1009",
+      "date": "2026-02-01",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Cardiology",
+      "hours": 6,
+      "rate": 45,
+      "gross": 270,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1010",
+      "date": "2026-02-03",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Internal Medicine",
+      "hours": 8,
+      "rate": 35,
+      "gross": 280,
+      "status": "pending"
+    },
+    {
+      "id": "DEMO-SHIFT-1011",
+      "date": "2026-02-06",
+      "hospital": "DEMO Santa Marta",
+      "specialty": "Internal Medicine",
+      "hours": 8,
+      "rate": 28,
+      "gross": 224,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1012",
+      "date": "2026-02-08",
+      "hospital": "DEMO Santa Marta",
+      "specialty": "Emergency",
+      "hours": 12,
+      "rate": 40,
+      "gross": 480,
+      "status": "completed"
+    },
+    {
+      "id": "DEMO-SHIFT-1013",
+      "date": "2026-02-10",
+      "hospital": "DEMO Santa Marta",
+      "specialty": "Internal Medicine",
+      "hours": 12,
+      "rate": 35,
+      "gross": 420,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1014",
+      "date": "2026-02-13",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Emergency",
+      "hours": 6,
+      "rate": 32,
+      "gross": 192,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1015",
+      "date": "2026-02-15",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Internal Medicine",
+      "hours": 8,
+      "rate": 32,
+      "gross": 256,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1016",
+      "date": "2026-02-18",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Cardiology",
+      "hours": 24,
+      "rate": 28,
+      "gross": 672,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1017",
+      "date": "2026-02-20",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Pediatrics",
+      "hours": 8,
+      "rate": 35,
+      "gross": 280,
+      "status": "pending"
+    },
+    {
+      "id": "DEMO-SHIFT-1018",
+      "date": "2026-02-22",
+      "hospital": "DEMO Santa Marta",
+      "specialty": "Internal Medicine",
+      "hours": 8,
+      "rate": 32,
+      "gross": 256,
+      "status": "pending"
+    },
+    {
+      "id": "DEMO-SHIFT-1019",
+      "date": "2026-02-24",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Pediatrics",
+      "hours": 12,
+      "rate": 28,
+      "gross": 336,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1020",
+      "date": "2026-02-26",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Pediatrics",
+      "hours": 8,
+      "rate": 28,
+      "gross": 224,
+      "status": "pending"
+    },
+    {
+      "id": "DEMO-SHIFT-1021",
+      "date": "2026-03-01",
+      "hospital": "DEMO Hospital Central",
+      "specialty": "Pediatrics",
+      "hours": 24,
+      "rate": 32,
+      "gross": 768,
+      "status": "completed"
+    },
+    {
+      "id": "DEMO-SHIFT-1022",
+      "date": "2026-03-04",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Pediatrics",
+      "hours": 12,
+      "rate": 45,
+      "gross": 540,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1023",
+      "date": "2026-03-06",
+      "hospital": "DEMO Hospital Central",
+      "specialty": "Pediatrics",
+      "hours": 12,
+      "rate": 35,
+      "gross": 420,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1024",
+      "date": "2026-03-09",
+      "hospital": "DEMO Santa Marta",
+      "specialty": "Emergency",
+      "hours": 12,
+      "rate": 32,
+      "gross": 384,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1025",
+      "date": "2026-03-11",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Pediatrics",
+      "hours": 24,
+      "rate": 32,
+      "gross": 768,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1026",
+      "date": "2026-03-14",
+      "hospital": "DEMO Hospital Central",
+      "specialty": "Pediatrics",
+      "hours": 6,
+      "rate": 35,
+      "gross": 210,
+      "status": "completed"
+    },
+    {
+      "id": "DEMO-SHIFT-1027",
+      "date": "2026-03-17",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Internal Medicine",
+      "hours": 12,
+      "rate": 40,
+      "gross": 480,
+      "status": "completed"
+    },
+    {
+      "id": "DEMO-SHIFT-1028",
+      "date": "2026-03-20",
+      "hospital": "DEMO Hospital Central",
+      "specialty": "Pediatrics",
+      "hours": 12,
+      "rate": 32,
+      "gross": 384,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1029",
+      "date": "2026-03-22",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Cardiology",
+      "hours": 6,
+      "rate": 32,
+      "gross": 192,
+      "status": "pending"
+    },
+    {
+      "id": "DEMO-SHIFT-1030",
+      "date": "2026-03-24",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Emergency",
+      "hours": 6,
+      "rate": 45,
+      "gross": 270,
+      "status": "completed"
+    },
+    {
+      "id": "DEMO-SHIFT-1031",
+      "date": "2026-03-27",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Internal Medicine",
+      "hours": 12,
+      "rate": 40,
+      "gross": 480,
+      "status": "completed"
+    },
+    {
+      "id": "DEMO-SHIFT-1032",
+      "date": "2026-03-29",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Emergency",
+      "hours": 8,
+      "rate": 45,
+      "gross": 360,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1033",
+      "date": "2026-03-31",
+      "hospital": "DEMO Hospital Central",
+      "specialty": "Internal Medicine",
+      "hours": 12,
+      "rate": 28,
+      "gross": 336,
+      "status": "completed"
+    },
+    {
+      "id": "DEMO-SHIFT-1034",
+      "date": "2026-04-03",
+      "hospital": "DEMO Hospital Central",
+      "specialty": "Pediatrics",
+      "hours": 8,
+      "rate": 45,
+      "gross": 360,
+      "status": "pending"
+    },
+    {
+      "id": "DEMO-SHIFT-1035",
+      "date": "2026-04-06",
+      "hospital": "DEMO Hospital Central",
+      "specialty": "Cardiology",
+      "hours": 12,
+      "rate": 32,
+      "gross": 384,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1036",
+      "date": "2026-04-09",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Internal Medicine",
+      "hours": 12,
+      "rate": 28,
+      "gross": 336,
+      "status": "completed"
+    },
+    {
+      "id": "DEMO-SHIFT-1037",
+      "date": "2026-04-12",
+      "hospital": "DEMO Santa Marta",
+      "specialty": "Pediatrics",
+      "hours": 6,
+      "rate": 40,
+      "gross": 240,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1038",
+      "date": "2026-04-14",
+      "hospital": "DEMO Hospital Central",
+      "specialty": "Pediatrics",
+      "hours": 24,
+      "rate": 45,
+      "gross": 1080,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1039",
+      "date": "2026-04-16",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Emergency",
+      "hours": 8,
+      "rate": 32,
+      "gross": 256,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1040",
+      "date": "2026-04-18",
+      "hospital": "DEMO Hospital Central",
+      "specialty": "Pediatrics",
+      "hours": 6,
+      "rate": 40,
+      "gross": 240,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1041",
+      "date": "2026-04-20",
+      "hospital": "DEMO Santa Marta",
+      "specialty": "Cardiology",
+      "hours": 12,
+      "rate": 32,
+      "gross": 384,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1042",
+      "date": "2026-04-23",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Pediatrics",
+      "hours": 12,
+      "rate": 32,
+      "gross": 384,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1043",
+      "date": "2026-04-25",
+      "hospital": "DEMO Hospital Central",
+      "specialty": "Internal Medicine",
+      "hours": 6,
+      "rate": 28,
+      "gross": 168,
+      "status": "completed"
+    },
+    {
+      "id": "DEMO-SHIFT-1044",
+      "date": "2026-04-27",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Pediatrics",
+      "hours": 12,
+      "rate": 32,
+      "gross": 384,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1045",
+      "date": "2026-04-30",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Emergency",
+      "hours": 12,
+      "rate": 45,
+      "gross": 540,
+      "status": "pending"
+    },
+    {
+      "id": "DEMO-SHIFT-1046",
+      "date": "2026-05-03",
+      "hospital": "DEMO Hospital Central",
+      "specialty": "Pediatrics",
+      "hours": 12,
+      "rate": 45,
+      "gross": 540,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1047",
+      "date": "2026-05-06",
+      "hospital": "DEMO Santa Marta",
+      "specialty": "Emergency",
+      "hours": 12,
+      "rate": 45,
+      "gross": 540,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1048",
+      "date": "2026-05-09",
+      "hospital": "DEMO Santa Marta",
+      "specialty": "Emergency",
+      "hours": 12,
+      "rate": 35,
+      "gross": 420,
+      "status": "completed"
+    },
+    {
+      "id": "DEMO-SHIFT-1049",
+      "date": "2026-05-11",
+      "hospital": "DEMO Hospital Central",
+      "specialty": "Pediatrics",
+      "hours": 12,
+      "rate": 40,
+      "gross": 480,
+      "status": "pending"
+    },
+    {
+      "id": "DEMO-SHIFT-1050",
+      "date": "2026-05-13",
+      "hospital": "DEMO Hospital Central",
+      "specialty": "Pediatrics",
+      "hours": 12,
+      "rate": 32,
+      "gross": 384,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1051",
+      "date": "2026-05-15",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Emergency",
+      "hours": 24,
+      "rate": 28,
+      "gross": 672,
+      "status": "pending"
+    },
+    {
+      "id": "DEMO-SHIFT-1052",
+      "date": "2026-05-17",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Internal Medicine",
+      "hours": 8,
+      "rate": 45,
+      "gross": 360,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1053",
+      "date": "2026-05-19",
+      "hospital": "DEMO Santa Marta",
+      "specialty": "Cardiology",
+      "hours": 6,
+      "rate": 45,
+      "gross": 270,
+      "status": "completed"
+    },
+    {
+      "id": "DEMO-SHIFT-1054",
+      "date": "2026-05-22",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Pediatrics",
+      "hours": 12,
+      "rate": 35,
+      "gross": 420,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1055",
+      "date": "2026-05-25",
+      "hospital": "DEMO Hospital Central",
+      "specialty": "Cardiology",
+      "hours": 8,
+      "rate": 40,
+      "gross": 320,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1056",
+      "date": "2026-05-28",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Cardiology",
+      "hours": 24,
+      "rate": 35,
+      "gross": 840,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1057",
+      "date": "2026-05-31",
+      "hospital": "DEMO Santa Marta",
+      "specialty": "Pediatrics",
+      "hours": 6,
+      "rate": 28,
+      "gross": 168,
+      "status": "completed"
+    },
+    {
+      "id": "DEMO-SHIFT-1058",
+      "date": "2026-06-02",
+      "hospital": "DEMO Hospital Central",
+      "specialty": "Emergency",
+      "hours": 8,
+      "rate": 45,
+      "gross": 360,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1059",
+      "date": "2026-06-04",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Cardiology",
+      "hours": 12,
+      "rate": 40,
+      "gross": 480,
+      "status": "pending"
+    },
+    {
+      "id": "DEMO-SHIFT-1060",
+      "date": "2026-06-07",
+      "hospital": "DEMO Santa Marta",
+      "specialty": "Cardiology",
+      "hours": 24,
+      "rate": 40,
+      "gross": 960,
+      "status": "completed"
+    },
+    {
+      "id": "DEMO-SHIFT-1061",
+      "date": "2026-06-09",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Pediatrics",
+      "hours": 6,
+      "rate": 45,
+      "gross": 270,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1062",
+      "date": "2026-06-12",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Cardiology",
+      "hours": 24,
+      "rate": 45,
+      "gross": 1080,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1063",
+      "date": "2026-06-14",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Cardiology",
+      "hours": 6,
+      "rate": 45,
+      "gross": 270,
+      "status": "pending"
+    },
+    {
+      "id": "DEMO-SHIFT-1064",
+      "date": "2026-06-16",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Cardiology",
+      "hours": 12,
+      "rate": 45,
+      "gross": 540,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1065",
+      "date": "2026-06-18",
+      "hospital": "DEMO Santa Marta",
+      "specialty": "Internal Medicine",
+      "hours": 24,
+      "rate": 40,
+      "gross": 960,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1066",
+      "date": "2026-06-20",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Emergency",
+      "hours": 8,
+      "rate": 28,
+      "gross": 224,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1067",
+      "date": "2026-06-23",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Cardiology",
+      "hours": 6,
+      "rate": 40,
+      "gross": 240,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1068",
+      "date": "2026-06-25",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Emergency",
+      "hours": 12,
+      "rate": 32,
+      "gross": 384,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1069",
+      "date": "2026-06-27",
+      "hospital": "DEMO Clínica Norte",
+      "specialty": "Internal Medicine",
+      "hours": 12,
+      "rate": 35,
+      "gross": 420,
+      "status": "confirmed"
+    },
+    {
+      "id": "DEMO-SHIFT-1070",
+      "date": "2026-06-30",
+      "hospital": "DEMO Hospital do Vale",
+      "specialty": "Internal Medicine",
+      "hours": 24,
+      "rate": 35,
+      "gross": 840,
+      "status": "confirmed"
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2026-01",
+      "shifts": 9,
+      "hours": 158,
+      "gross": 5284
+    },
+    {
+      "month": "2026-02",
+      "shifts": 12,
+      "hours": 120,
+      "gross": 2850
+    },
+    {
+      "month": "2026-03",
+      "shifts": 13,
+      "hours": 158,
+      "gross": 5400
+    },
+    {
+      "month": "2026-04",
+      "shifts": 12,
+      "hours": 130,
+      "gross": 3856
+    },
+    {
+      "month": "2026-05",
+      "shifts": 12,
+      "hours": 148,
+      "gross": 4262
+    },
+    {
+      "month": "2026-06",
+      "shifts": 13,
+      "hours": 178,
+      "gross": 6278
+    }
+  ]
+}

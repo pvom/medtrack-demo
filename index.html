@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MedTrack — read-only demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="banner" role="note">
+    ⚠️ <strong>Demo with synthetic data.</strong> Fictional physician and shifts — no real
+    patient or user data. Read-only: nothing here is editable or saved.
+  </div>
+
+  <header class="topbar">
+    <div class="brand">Med<span>Track</span></div>
+    <div class="doctor" id="doctor"></div>
+  </header>
+
+  <main class="wrap">
+    <section class="cards" id="cards"></section>
+
+    <section class="panel">
+      <h2>Earnings by month <span class="sub">(synthetic, € gross)</span></h2>
+      <div class="chart" id="chart"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Shifts <span class="sub" id="shiftCount"></span></h2>
+      <div class="tablewrap">
+        <table id="shifts">
+          <thead>
+            <tr><th>Date</th><th>Hospital</th><th>Specialty</th><th>Hours</th><th>Rate</th><th>Gross</th><th>Status</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    MedTrack is a real healthcare SaaS (production). This is a sanitized, read-only demo on
+    synthetic data. — <a href="https://github.com" rel="noopener">portfolio sample</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
